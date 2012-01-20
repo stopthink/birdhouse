@@ -1,0 +1,41 @@
+# python
+*.pyc
+*.pyo
+
+# vim
+*.sw*
+
+# textmate
+.tmproj
+
+# mac
+._*
+__MACOSX
+.DS_Store
+
+# win
+*~
+Thumbs.db
+desktop.ini
+
+# misc
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+
+# django
+/hivelocityportal/local_settings.py
+
+# compiled less
+/public/css
+
+# logs
+/logs
+
+# user submitted content
+/uploads
