@@ -1,3 +1,7 @@
+html {
+    background: #362f21;
+}
+
 body {
     background: url('../images/dark_brown_texture.gif');
     /*background: url('../images/bluesky.jpg') no-repeat;
@@ -297,3 +301,4 @@ a {
 .cf {
     zoom:1;
 }
+
