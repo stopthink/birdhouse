@@ -10,8 +10,6 @@ body {
 }
 
 .header-wrap {
-    /*background: #edf6f9 url('../images/torn_top.gif') repeat-x;*/
-
     height: 276px;
 }
 
@@ -76,11 +74,14 @@ body {
 
 
 .content {
-    width: 940px;
-    background: #f8f7f6 url('../images/texture_light.gif');
-    border: 1px solid #ddd;
+    width: 920px;
+    background: url('../images/content_bg.jpg') repeat-y;
     margin: -140px auto 0 auto;
     padding: 20px;
+
+    -moz-box-shadow: 0 0 3px #666;
+    -webkit-box-shadow: 0 0 3px #666;
+    box-shadow: 0 0 3px #666;
 }
 
 h1 {
@@ -90,11 +91,21 @@ h1 {
 }
 
 h2 {
+    font-size: 34px;
+    font-family: "luminance", georgia, sans-serif;
+    border-bottom: 2px solid #566b2a;
+    margin-bottom: 10px;
+    color: #393732; 
+}
+
+h3 {
     font-size: 26px;
     font-family: "luminance", georgia, sans-serif;
     border-bottom: 2px solid #566b2a;
     margin-bottom: 10px;
     color: #393732; 
+    margin-top: 9px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -105,9 +116,9 @@ a {
     color: #566b2a;
 }
 
-.content-col {
+.content-aside {
     width: 293px;
-    float: left;
+    float: right;
 }
 
 .content-col-large {
@@ -118,6 +129,10 @@ a {
 
 .content-col-large p { 
     width: 250px;
+}
+
+.step {
+    margin-bottom: 9px;
 }
 
 .step-num {
@@ -157,8 +172,9 @@ a {
 
 .step p {
     float: left;
-    width: 250px;
+    width: 450px;
     margin-left: 10px;
+    margin-top: 6px;
 }
 
 
@@ -171,13 +187,13 @@ a {
 .product img {
     float: left;
     width: 53px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 5px;
 }
 
 .product span {
     float: left;
-    width: 235px;
+    width: 230px;
 }
 
 .product .product-title {
@@ -188,7 +204,7 @@ a {
 .product .product-price {
     display: inline;
     color: #566b2a;
-    clear: right;
+    font-size: 13px;
 }
 
 .product .product-desc {
@@ -211,6 +227,11 @@ a {
     padding: 3px 7px;
 }
 
+
+/* ---------------------------- */
+
+
+
 .green-button {
     background-color: #566b2a;
     -webkit-border-radius: 5px;
@@ -228,10 +249,6 @@ a {
     background: -ms-linear-gradient(top, #707c54 0%,#536232 100%); /* IE10+ */
     background: linear-gradient(top, #707c54 0%,#536232 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707c54', endColorstr='#536232',GradientType=0 ); /* IE6-9 */
-
-    -moz-box-shadow: 0px 0px 3px #aaa;
-    -webkit-box-shadow: 0px 0px 3px #aaa;
-    box-shadow: 0px 0px 3px #aaa;
 }
 
 
@@ -240,9 +257,6 @@ a {
     margin-right: 10px;
     width: 245px;
 }
-
-/* ---------------------------- */
-
 
 .polaroid {
     border: 5px solid #fff;
