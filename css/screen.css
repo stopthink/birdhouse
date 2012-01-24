@@ -42,7 +42,7 @@ body {
 }
 
 .content-main {
-    width: 600px;
+    width: 598px;
     padding: 20px;
     float: left;
 
@@ -54,10 +54,11 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 
+    border-right: 1px solid #e3e2e1; 
 }
 
 .content-aside {
-    width: 279px;
+    width: 280px;
     padding: 20px;
     float: right;
     background: url('../images/texture_mid.gif');
@@ -68,8 +69,6 @@ body {
     -moz-border-radius-bottomright: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    
-    border-left: 1px solid #e3e2e1; 
 }
 
 .nav {
